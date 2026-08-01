@@ -61,13 +61,22 @@ h2{
     padding: 15px;
     border-radius: 7px;
 }
-.btn{
-    display: block;
-        padding: 10px 20px;
-    border-radius: 10px;
-       margin: 15px auto;
-      
-   
+.btn,
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover,
+button:hover{
+    background: #e64a19;
 }
 .info h3{
     font-size: 2rem;
