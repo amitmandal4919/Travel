@@ -1,70 +1,118 @@
+
 *{
-    padding: 0;
-    margin: 0;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
+
 body{
-    margin: 0;
-    background-image: url(WhatsApp\ Image\ 2026-06-03\ at\ 11.14.01\ AM.jpeg);
-overflow:hidden;
-display: flex;
-background-repeat: no-repeat;
-width: 100%;
-height: 100vh;
-background-position: center;
-background-size: cover;
-}
-.hero {
-    
-       height: 100vh;
-    display: flex;
-         justify-content: space-around;
-         align-items: center;
-         padding: 0 29%;
-}
-.hero h1{
-    font-size: 4rem;
-margin: 0;
-left: 80px;
-top: 40%;
-}
-.hero h2{
-    font-size: 3rem;
-    margin: 15px 0;
-flex-direction: column;
+    font-family:Georgia, serif;
 }
 
-
- .btn{
-    padding: 12px 30px;
-    border:none;
-    border-radius: 20px;
-    cursor: pointer;
+.hero{
+    width:100%;
+    height:100vh;
+    background:url("WhatsApp\ Image\ 2026-06-03\ at\ 11.14.01\ AM.jpeg") center center/cover no-repeat;
 }
-/* tablet */
-@media (max-width:786px) {
-    .hero h1{
-        font-size: 3rem;
-    }
-    .hero h2{
-        font-size:1.5rem;
-    } 
-    .btn{
-        font-size: 16px;
-        padding: 12px 28px;
 
-    }
+.overlay{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.2);
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    padding-bottom:80px;
+}
+
+.content{
+    text-align:center;
+}
+
+.content h1{
+    font-size:70px;
+    color:#d67b1d;
+}
+
+.content h2{
+    font-size:60px;
+    color:#e48a2d;
+    margin:10px 0;
+}
+
+.content h3{
+    font-size:50px;
+    color:#d7da35;
+    margin-bottom:40px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 35px;
+    background:#b7ff00;
+    color:#000;
+    text-decoration:none;
+    border-radius:40px;
+    font-size:24px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#8ae600;
+    transform:scale(1.05);
+}
+
+/* Tablet */
+@media(max-width:768px){
+
+.content h1{
+    font-size:50px;
+}
+
+.content h2{
+    font-size:42px;
+}
+
+.content h3{
+    font-size:36px;
+}
+
+.btn{
+    font-size:20px;
+    padding:12px 28px;
+}
+
+.overlay{
+    padding-bottom:60px;
+}
 
 }
-/* mobile*/
+
+/* Mobile */
 @media(max-width:480px){
-    .hero h1{
-        font-size: 2.2rem;
-    }
-    .hero h2{
-        font-size: 1.2rem;
-    }
-    .btn{
-        width: 220px;
-        font-size: 15px;
-    }
+
+.content h1{
+    font-size:38px;
+}
+
+.content h2{
+    font-size:32px;
+}
+
+.content h3{
+    font-size:28px;
+}
+
+.btn{
+    font-size:18px;
+    padding:10px 24px;
+}
+
+.overlay{
+    padding:20px;
+    padding-bottom:40px;
+}
+
 }
