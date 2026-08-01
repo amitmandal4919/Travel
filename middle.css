@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+margin: 0;
+}
+img{
+margin: 20px;
+    height: 40px;
+}
+input{
+    margin-top: 19px;
+    width: 90%;
+    max-width: 500px;
+    padding: 12px 20px 12px 40px;
+    background-image: url(search.svg);
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border: 2px solid#ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 5px 0px;
+    background-size: 35px;
+    text-align: left;
+    position: relative;
+    display: block;
+
+.card{
+    width: 90%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+
+}
+}
+h1{
+    font-size: 4rem;
+    margin: 20px 20px;
+
+}
+h2{
+    font-size: 1.5rem;
+    margin: 20px 60px;
+}
+ 
+.photo img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.info{
+    border: 2px solid black;
+    text-align: left;
+    justify-content: left;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 450px;
+    padding: 15px;
+    border-radius: 7px;
+}
+.btn{
+    display: block;
+        padding: 10px 20px;
+    border-radius: 10px;
+       margin: 15px auto;
+      
+   
+}
+.info h3{
+    font-size: 2rem;
+    margin-left: 14px;
+}
+h4{
+    margin-left: 10px;
+}
+.btn:hover{
+    font-size: 1.2rem;
+}
+
+@media (max-width:768px){
+
+    h1{
+        font-size:2.5rem;
+    }
+
+    h2{
+        font-size:1.2rem;
+    }
+
+    .photo img{
+        width:95%;
+    }
+
+    .info{
+        width:95%;
+    }
+
+    .btn{
+        width:90%;
+    }
+
+    input{
+        width:95%;
+    }
+}
