@@ -6,6 +6,8 @@
 body{
     width: 100%;
     overflow-x: hidden;
+    background: linear-gradient(to bottom, #EAF6FF, #FFFFFF);
+
 }
 .top{
     
